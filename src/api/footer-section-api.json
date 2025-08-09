@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "Contact Us",
+    "content1": "+91 983957XXXX",
+    "content2": "678-893-4578",
+    "content3": "snatacalony",
+    "content4": "xyz@gmail.com"
+  },
+  {
+    "id": "2",
+    "title": "follow Us ",
+    "content1": "instagram",
+    "content2": "facebook",
+    "content3": "twitter",
+    "content4": "linkedin"
+  },
+  {
+    "id": "3",
+    "title": "discover",
+    "content1": "latest news",
+    "content2": "new arrival",
+    "content3": "career",
+    "content4": "experitse"
+  },
+  {
+    "id": "4",
+    "title": "solution us",
+    "content1": "technology",
+    "content2": "what’s here",
+    "content3": "  download",
+    "content4": "get in touch"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "24X7.png",
+    "title": " 24/7 Assistance & Support",
+    "description": "Need help finding a hospital or booking an appointment? Our dedicated support team is available 24/7 to assist you, ensuring a smooth and hassle-free experience."
+  },
+  {
+    "id": 2,
+    "image": "trusted-review.png",
+    "title": " Trusted Reviews & Ratings",
+    "description": "Make informed decisions with genuine patient reviews. Get insights into hospital facilities, doctor expertise, and patient experiences before booking an appointmen"
+  },
+  {
+    "id": 3,
+    "image": "book-appointment.png",
+    "title": "Book Appointments in Seconds",
+    "description": "Say goodbye to long waiting times! Our platform allows you to schedule appointments instantly with qualified doctors at your preferred hospitals. No more calling or standing in queues!"
+  },
+  {
+    "id": 4,
+    "image": "nearby-hospital.png",
+    "title": "Nearby Hospitals at Your Fingertips",
+    "description": "With our advanced location-based search, you can quickly find top-rated hospitals near you. Whether it’s an emergency or a routine check-up, we make it easy to access the best healthcare facilities."
+  }
+]

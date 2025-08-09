@@ -1,0 +1,15 @@
+
+.textArea{
+    display: flex;
+    flex-direction: column;
+}
+.message-div{
+    resize: none;
+    padding: 1rem;
+}
+
+.contact-div{
+    & form{
+        width:70rem;
+    }
+}

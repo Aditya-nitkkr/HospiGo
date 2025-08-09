@@ -1,0 +1,102 @@
+.hospital-main {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: antiquewhite;
+}
+
+.hospital-card-right {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.hospital-top-name {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.button-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.hospital-btn {
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #22177A;
+    border-radius: 2rem;
+    text-transform: capitalize;
+}
+
+
+@media (max-width:990px) {
+    .hospital-main {
+        width: 90vw;
+        margin: 1rem 2rem;
+        gap: 2rem;
+    }
+}
+
+@media (max-width:600px) {
+    html {
+        font-size: 55.5%;
+    }
+
+    .hospital-main {
+        width: 92vw;
+        margin-left: 1rem;
+        height: 13rem;
+    }
+
+    .nearby-hospital-image {
+        height: 100%;
+
+    }
+
+    .hospital-card-right {
+        gap: 2rem;
+
+        & .hospital-top-name {
+            gap: 2rem;
+
+            & h1 {
+                font-size: 1.5rem;
+            }
+
+            & p {
+                text-align: right;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .hospital-main-desc-content {
+        display: none;
+    }
+
+    .hospital-btn {
+        font-size: 1.2rem;
+    }
+
+    header .navbar {
+        & ul {
+            gap: 0rem;
+        }
+    }
+
+    .image-hospital {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+}

@@ -1,0 +1,664 @@
+[
+  {
+    "id": "HSP1001",
+    "name": "Apollo Hospital",
+    "email" :"apollo1001@gmail.com",
+    "image": "http://localhost:8000/images/hospital01.jpg",
+    "location": {
+      "lat": 28.5672,
+      "lng": 77.21,
+      "address": "Sector 4, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Anita Sharma",
+      "phone": "9812345670"
+    },
+    "ambulance": {
+      "driver": "Rajesh Kumar",
+      "phone": "9990011122",
+      "charge": 500
+    },
+    "details": {
+      "description": "Apollo Hospital in Rewari is a premier multi-specialty facility offering advanced treatments in cardiology and dermatology, with state-of-the-art diagnostic and surgical services.",
+      "services": ["Cardiology", "Dermatology", "Emergency Care", "Diagnostic Imaging"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Round-the-clock emergency care with rapid response teams for critical conditions."
+        },
+        {
+          "name": "Trauma Care",
+          "description": "Specialized treatment for severe injuries, including surgical interventions."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Fully equipped ambulances with trained paramedics for swift patient transport."
+        },
+        {
+          "name": "Cardiac Emergency Care",
+          "description": "Immediate care for heart-related emergencies, including angioplasty and defibrillation."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR101",
+        "name": "Dr. Rakesh Verma",
+        "specialization": "Cardiologist",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "02:00 PM", "04:30 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "rverma@apollo.in",
+        "phone": "9876543210",
+        "opdCharge": 500
+      },
+      {
+        "id": "DR101B",
+        "name": "Dr. Meena Joshi",
+        "specialization": "Dermatologist",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["11:00 AM", "01:00 PM", "03:30 PM"],
+        "opdTime": "11:00 AM - 04:00 PM",
+        "email": "mjoshi@apollo.in",
+        "phone": "9876543211",
+        "opdCharge": 200
+      }
+    ]
+  },
+  {
+    "id": "HSP1002",
+    "name": "Fortis Hospital",
+    "email" :"fortis1002@gmail.com",
+    "image": "http://localhost:8000/images/hospital02.jpg",
+    "location": {
+      "lat": 28.4595,
+      "lng": 77.0266,
+      "address": "Model Town, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Ritu Malhotra",
+      "phone": "9812345671"
+    },
+    "ambulance": {
+      "driver": "Sunil Yadav",
+      "phone": "9990022233",
+      "charge": 700
+    },
+    "details": {
+      "description": "Fortis Hospital provides comprehensive neurological and endocrinological care, equipped with modern facilities for both inpatient and outpatient services.",
+      "services": ["Neurology", "Endocrinology", "ICU", "Rehabilitation"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Continuous emergency services with advanced life support systems."
+        },
+        {
+          "name": "Stroke Unit",
+          "description": "Specialized care for stroke patients with rapid diagnosis and treatment."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "High-speed ambulance fleet for urgent patient transfers."
+        },
+        {
+          "name": "Intensive Care",
+          "description": "Critical care for neurological and other life-threatening conditions."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR102",
+        "name": "Dr. Meenal Jain",
+        "specialization": "Neurologist",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["09:00 AM", "11:30 AM", "05:00 PM"],
+        "opdTime": "09:00 AM - 06:00 PM",
+        "email": "mjain@fortis.in",
+        "phone": "9876543212"
+      },
+      {
+        "id": "DR102B",
+        "name": "Dr. Arjun Sen",
+        "specialization": "Endocrinologist",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:30 AM", "12:30 PM", "04:30 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "asen@fortis.in",
+        "phone": "9876543213"
+      }
+    ]
+  },
+  {
+    "id": "HSP1003",
+    "name": "Max Super Speciality Hospital",
+    "email" :"maxsuper1003@gmail.com",
+    "image": "http://localhost:8000/images/hospital03.jpg",
+    "location": {
+      "lat": 28.685,
+      "lng": 77.2365,
+      "address": "Civil Lines, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Deepika Rana",
+      "phone": "9812345672"
+    },
+    "ambulance": {
+      "driver": "Ajay Mehta",
+      "phone": "9990033344",
+      "charge": 600
+    },
+    "details": {
+      "description": "Max Super Speciality Hospital is renowned for its pediatric and orthopedic care, offering advanced surgical and diagnostic services in Rewari.",
+      "services": ["Pediatrics", "Orthopedics", "Radiology", "Emergency Services"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Always-open emergency department for urgent medical needs."
+        },
+        {
+          "name": "Pediatric Emergency Care",
+          "description": "Dedicated emergency services for infants and children."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Pediatric-equipped ambulances for safe transport."
+        },
+        {
+          "name": "Orthopedic Trauma Care",
+          "description": "Immediate treatment for fractures and musculoskeletal injuries."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR103",
+        "name": "Dr. Priya Nair",
+        "specialization": "Pediatrician",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["09:00 AM", "12:00 PM", "03:00 PM"],
+        "opdTime": "09:00 AM - 04:00 PM",
+        "email": "pnair@max.in",
+        "phone": "9876543214"
+      },
+      {
+        "id": "DR103B",
+        "name": "Dr. Karan Malik",
+        "specialization": "Orthopedic",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "05:00 PM"],
+        "opdTime": "10:00 AM - 06:00 PM",
+        "email": "kmalik@max.in",
+        "phone": "9876543215"
+      }
+    ]
+  },
+  {
+    "id": "HSP1004",
+    "name": "Medanta Hospital",
+    "email" :"medanta@gmail.com",
+    "image": "http://localhost:8000/images/hospital04.jpg",
+    "location": {
+      "lat": 28.640808,
+      "lng": 77.726169,
+      "address": "Dharuhera Road, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Pooja Gupta",
+      "phone": "981230003"
+    },
+    "ambulance": {
+      "driver": "Vikram Singh",
+      "phone": "999000003",
+      "charge": 500
+    },
+    "details": {
+      "description": "Medanta Hospital specializes in orthopedic and general medical care, providing high-quality healthcare with advanced medical technology.",
+      "services": ["Orthopedics", "General Medicine", "Pathology", "Ambulance Services"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Non-stop emergency care for all urgent medical conditions."
+        },
+        {
+          "name": "Orthopedic Emergency Care",
+          "description": "Rapid response for bone and joint injuries."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Reliable ambulance transport with medical support."
+        },
+        {
+          "name": "General Emergency Care",
+          "description": "Comprehensive care for acute medical issues."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR103A",
+        "name": "Dr. Sanjay Yadav",
+        "specialization": "Orthopedic",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "syadav@hospital.in",
+        "phone": "987650030"
+      },
+      {
+        "id": "DR103B",
+        "name": "Dr. Neha Sharma",
+        "specialization": "General Physician",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "nsharma@hospital.in",
+        "phone": "987650031"
+      }
+    ]
+  },
+  {
+    "id": "HSP1005",
+    "name": "Park Hospital",
+    "email" :"park1005@gmail.com",
+    "image": "http://localhost:8000/images/hospital05.jpg",
+    "location": {
+      "lat": 29.221837,
+      "lng": 77.707956,
+      "address": "Bawal Road, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Kavita Rani",
+      "phone": "981230004"
+    },
+    "ambulance": {
+      "driver": "Mukesh Kumar",
+      "phone": "999000004",
+      "charge": 600
+    },
+    "details": {
+      "description": "Park Hospital offers specialized pediatric and dermatology services, focusing on patient-centric care with modern medical facilities.",
+      "services": ["Pediatrics", "Dermatology", "Outpatient Care", "Diagnostics"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Always-available emergency care for urgent medical needs."
+        },
+        {
+          "name": "Pediatric Emergency Care",
+          "description": "Specialized emergency services for children and infants."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Pediatric-ready ambulances for safe and quick transport."
+        },
+        {
+          "name": "Dermatological Emergency Care",
+          "description": "Urgent care for severe skin conditions and allergic reactions."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR104A",
+        "name": "Dr. Anjali Mehra",
+        "specialization": "Pediatrician",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "amehra@hospital.in",
+        "phone": "987650040"
+      },
+      {
+        "id": "DR104B",
+        "name": "Dr. Vikrant Rao",
+        "specialization": "Dermatologist",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "vrao@hospital.in",
+        "phone": "987650041"
+      }
+    ]
+  },
+  {
+    "id": "HSP1006",
+    "name": "Metro Hospital",
+    "email" :"metro1006@gmail.com",
+    "image": "http://localhost:8000/images/hospital06.jpg",
+    "location": {
+      "lat": 29.032894,
+      "lng": 76.960925,
+      "address": "Garhi Bolni Road, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Sunita Devi",
+      "phone": "981230005"
+    },
+    "ambulance": {
+      "driver": "Amit Kumar",
+      "phone": "999000005",
+      "charge": 600
+    },
+    "details": {
+      "description": "Metro Hospital provides advanced neurological and pediatric care, equipped with cutting-edge diagnostic tools and emergency services.",
+      "services": ["Neurology", "Pediatrics", "Emergency Care", "Surgical Services"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Non-stop emergency department for critical care needs."
+        },
+        {
+          "name": "Neurological Emergency Care",
+          "description": "Immediate treatment for seizures, strokes, and neurological crises."
+        },
+        {
+          "name": "Pediatric Emergency Care",
+          "description": "Specialized emergency services for pediatric patients."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Advanced ambulances equipped for neurological and pediatric emergencies."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR105A",
+        "name": "Dr. Rohan Gupta",
+        "specialization": "Neurologist",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "rgupta@hospital.in",
+        "phone": "987650050"
+      },
+      {
+        "id": "DR105B",
+        "name": "Dr. Shalini Kapoor",
+        "specialization": "Pediatrician",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "skapoor@hospital.in",
+        "phone": "987650051"
+      }
+    ]
+  },
+  {
+    "id": "HSP1007",
+    "name": "Columbia Asia",
+    "email" :"columbia1007@gmail.com",
+    "image": "http://localhost:8000/images/hospital07.jpg",
+    "location": {
+      "lat": 29.014928,
+      "lng": 77.177761,
+      "address": "Circular Road, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Meera Yadav",
+      "phone": "981230006"
+    },
+    "ambulance": {
+      "driver": "Suresh Kumar",
+      "phone": "999000006",
+      "charge": 800
+    },
+    "details": {
+      "description": "Columbia Asia provides top-tier general medical and cardiology services, with a focus on patient comfort and cutting-edge treatments.",
+      "services": ["General Medicine", "Cardiology", "Diagnostics", "Ambulance Services"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Continuous emergency care for all urgent medical conditions."
+        },
+        {
+          "name": "Cardiac Emergency Care",
+          "description": "Rapid response for heart attacks and other cardiac emergencies."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Cardiac-equipped ambulances for emergency transport."
+        },
+        {
+          "name": "General Emergency Care",
+          "description": "Immediate treatment for a wide range of acute conditions."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR106A",
+        "name": "Dr. Anil Sharma",
+        "specialization": "General Physician",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "asharma@hospital.in",
+        "phone": "987650060"
+      },
+      {
+        "id": "DR106B",
+        "name": "Dr. Preeti Malik",
+        "specialization": "Cardiologist",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "pmalik@hospital.in",
+        "phone": "987650061"
+      }
+    ]
+  },
+  {
+    "id": "HSP1008",
+    "name": "Paras Hospital",
+    "email" :"paras1008@gmail.com",
+    "image": "http://localhost:8000/images/hospital08.jpg",
+    "location": {
+      "lat": 29.437062,
+      "lng": 76.968284,
+      "address": "Delhi Road, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Rekha Chauhan",
+      "phone": "981230007"
+    },
+    "ambulance": {
+      "driver": "Ravi Kumar",
+      "phone": "999000007",
+      "charge": 500
+    },
+    "details": {
+      "description": "Paras Hospital excels in dermatology and neurology, offering specialized treatments and advanced medical care in Rewari.",
+      "services": ["Dermatology", "Neurology", "Outpatient Services", "Radiology"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Always-open emergency care for critical conditions."
+        },
+        {
+          "name": "Neurological Emergency Care",
+          "description": "Urgent care for strokes, seizures, and other neurological issues."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Ambulances equipped for neurological emergencies."
+        },
+        {
+          "name": "Dermatological Emergency Care",
+          "description": "Immediate treatment for severe skin conditions."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR107A",
+        "name": "Dr. Kiran Desai",
+        "specialization": "Dermatologist",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "kdesai@hospital.in",
+        "phone": "987650070"
+      },
+      {
+        "id": "DR107B",
+        "name": "Dr. Vivek Singh",
+        "specialization": "Neurologist",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "vsingh@hospital.in",
+        "phone": "987650071"
+      }
+    ]
+  },
+  {
+    "id": "HSP1009",
+    "name": "BLK Hospital",
+    "email" :"blk1009@gmail.com",
+    "image": "http://localhost:8000/images/hospital09.jpg",
+    "location": {
+      "lat": 28.513426,
+      "lng": 77.865576,
+      "address": "Brass Market, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Nisha Kumari",
+      "phone": "981230008"
+    },
+    "ambulance": {
+      "driver": "Manoj Yadav",
+      "phone": "999000008",
+      "charge": 500
+    },
+    "details": {
+      "description": "BLK Hospital is known for its expertise in dermatology and neurology, providing comprehensive care with modern diagnostic facilities.",
+      "services": ["Dermatology", "Neurology", "Emergency Services", "Pathology"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Continuous emergency services for urgent medical needs."
+        },
+        {
+          "name": "Neurological Emergency Care",
+          "description": "Rapid response for neurological emergencies like strokes."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Equipped ambulances for safe patient transport."
+        },
+        {
+          "name": "Dermatological Emergency Care",
+          "description": "Urgent care for acute skin conditions and allergies."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR108A",
+        "name": "Dr. Swati Verma",
+        "specialization": "Dermatologist",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "sverma@hospital.in",
+        "phone": "987650080"
+      },
+      {
+        "id": "DR108B",
+        "name": "Dr. Rahul Mehra",
+        "specialization": "Neurologist",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "rmehra@hospital.in",
+        "phone": "987650081"
+      }
+    ]
+  },
+  {
+    "id": "HSP1010",
+    "name": "Primus Super Speciality",
+    "email" :"primus1010@gmail.com",
+    "image": "http://localhost:8000/images/hospital10.jpg",
+    "location": {
+      "lat": 29.007864,
+      "lng": 77.57284,
+      "address": "Narnaul Road, Rewari",
+      "city": "Rewari",
+      "state": "Haryana"
+    },
+    "reception": {
+      "name": "Geeta Sharma",
+      "phone": "981230009"
+    },
+    "ambulance": {
+      "driver": "Deepak Kumar",
+      "phone": "999000009",
+      "charge": 500
+    },
+    "details": {
+      "description": "Primus Super Speciality Hospital offers expert pediatric and general medical care, with a focus on advanced diagnostics and patient care.",
+      "services": ["Pediatrics", "General Medicine", "Radiology", "Emergency Care"],
+      "emergency_services": [
+        {
+          "name": "24/7 Emergency Room",
+          "description": "Round-the-clock emergency care for all urgent cases."
+        },
+        {
+          "name": "Pediatric Emergency Care",
+          "description": "Dedicated emergency services for pediatric patients."
+        },
+        {
+          "name": "Ambulance Services",
+          "description": "Pediatric-equipped ambulances for rapid transport."
+        },
+        {
+          "name": "General Emergency Care",
+          "description": "Immediate care for a variety of acute medical conditions."
+        }
+      ]
+    },
+    "doctors": [
+      {
+        "id": "DR109A",
+        "name": "Dr. Aarti Kapoor",
+        "specialization": "Pediatrician",
+        "photo": "http://localhost:8000/images/doctor_women.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "akapoor@hospital.in",
+        "phone": "987650090"
+      },
+      {
+        "id": "DR109B",
+        "name": "Dr. Manish Gupta",
+        "specialization": "General Physician",
+        "photo": "http://localhost:8000/images/doctor_men.jpg",
+        "slots": ["10:00 AM", "01:00 PM", "04:00 PM"],
+        "opdTime": "10:00 AM - 05:00 PM",
+        "email": "mgupta@hospital.in",
+        "phone": "987650091"
+      }
+    ]
+  }
+]

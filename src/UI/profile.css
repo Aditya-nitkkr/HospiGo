@@ -1,0 +1,234 @@
+.profile-main {
+    max-width: 400;
+    margin: 40px;
+    padding: 24px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fafbfc;
+}
+
+.main-container {
+    display: flex;
+    gap: 10rem;
+}
+
+.profile-heading {
+    text-align: center;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    color: #232f3b;
+
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 10rem;
+}
+
+.profile-image {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    border: 0.5rem solid rgb(57, 48, 164);
+    padding: 1rem;
+    /* color:  rgb(57, 48, 164) ; */
+}
+
+.edit-profile-btn {
+    margin-top: 16px;
+    margin-bottom: 2rem;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border: none;
+    background: #1976d2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile-username {
+    margin-bottom: 1.4rem;
+    /* margin-left: 1rem; */
+    font-size: 1.6rem;
+    color: rgb(43, 45, 45);
+    text-transform: capitalize;
+}
+
+.profile-email {
+    margin-bottom: 1.4rem;
+    font-size: 1.6rem;
+}
+
+.profile-role {
+    font-weight: bold;
+    color: rgb(30, 82, 100);
+    text-transform: capitalize;
+
+}
+
+.profile-list {
+
+    list-style: none;
+    /* border: 2px solid black; */
+    text-align: center;
+    height: 50vh;
+    background-color: #FFEAEA;
+    padding: 2rem;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+/* .accepted-list {
+     background-color: #f9cdcd;
+} */
+
+/* .rejected-list {
+
+} */
+
+.patient-left-content-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.patient-status {
+    text-align: left;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-size: 1.6rem;
+}
+
+.accepted {
+    color: blue;
+}
+
+.rejected {
+    color: red;
+}
+
+.patient-left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.profile-default-img {
+    border-radius: 50%;
+    object-fit: fill;
+    border-radius: 2px white;
+
+}
+
+.patient-name {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.patient-right-content {
+    background-color: white;
+    padding: 1.2rem;
+    border-radius: 2rem;
+}
+
+.patient-details {
+    color: rgb(63, 7, 7);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.patient-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.patient-info-item {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.patient-info-value {
+    text-transform: capitalize;
+}
+
+.acceptance-btn {
+    text-align: left;
+}
+
+.accept-profile-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-left: 2rem;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+}
+
+.accept-profile-btn:hover {
+    background-color: rgb(110, 35, 180);
+    scale: 1.1;
+}
+
+.disable-btn {
+    background-color: #f5f4f4;
+    color: #cdbdbd;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.revert-profile-btn {
+    width: 30%;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+
+@media (max-width:600px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .profile-container-main {
+        text-align: center;
+    }
+
+    .profile-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin: auto;
+    }
+
+    .patient-left-content {
+        gap: 0rem;
+    }
+
+    .patient-left-content-div {
+        gap: 2rem
+    }
+
+    .patient-right-content {
+        text-align: center;
+        overflow: scroll;
+    }
+
+    .patient-info {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+}

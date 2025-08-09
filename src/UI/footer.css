@@ -1,0 +1,162 @@
+footer {
+    padding: 10rem 0rem;
+    padding-top: 20rem;
+    background-color: #EFECEC;
+    position: relative;
+}
+
+.footer-section {
+    padding: 6rem 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+
+
+    & .footer-top {
+        & ul {
+            display: flex;
+            gap: 2rem;
+            justify-content: space-around;
+            font-size: 1.6rem;
+            list-style: none;
+
+
+            & .application-name {
+                margin: auto;
+                font-size: 4rem;
+                color: #280274;
+            }
+
+            & .footer-list {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                row-gap: 1rem;
+                text-transform: capitalize;
+
+                & .footer-title {
+                    margin-bottom: 2rem;
+                    font-weight: bold;
+
+                }
+            }
+        }
+    }
+}
+
+.contact-card {
+    border: 2rem;
+    padding: 0rem 4rem;
+    position: absolute;
+    top: -12rem;
+    left: 35rem;
+    background-color: white;
+    border-radius: 2rem;
+
+    & .contact-us-redirect-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & img {
+            width: 80%;
+        }
+    }
+
+
+    & .contact-card-title {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+}
+
+.footer-bottom {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91vw;
+    text-transform: capitalize;
+
+    & .privacy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+}
+
+@media (max-width:1030px) {
+    .contact-card {
+        top: -12rem;
+        left: 15rem;
+    }
+
+}
+
+@media (max-width:650px) {
+    .contact-card {
+        top: -9rem;
+        left: 9rem;
+        width: 45rem;
+    }
+
+    .footer-section {
+        padding: 3rem 1.2rem;
+
+        & .footer-top {
+            & ul {
+                & .application-name {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:600px) {
+    .contact-card {
+        top: -6rem;
+        left: 8vw;
+        width: 38rem;
+    }
+
+    .get-started-btn {
+        pointer-events: none;
+    }
+
+    .footer-section {
+        padding: 3rem 1.2rem;
+
+        & .footer-top {
+            & ul {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                place-items: center;
+
+                & .application-name {
+                    grid-column: 1/3;
+                }
+            }
+        }
+
+
+    }
+
+    .footer-bottom {
+        p {
+            font-size: 1.2rem;
+        }
+
+        & .privacy {
+            gap: 1rem;
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

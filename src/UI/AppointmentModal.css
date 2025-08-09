@@ -1,0 +1,124 @@
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.cross-icon {
+    position: absolute;
+    font-size: 2rem;
+}
+
+.cross-icon:hover {
+    scale: 1.2;
+}
+
+.appointment-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 80vw;
+    height: 85vh;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    & label {
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+
+}
+
+
+
+.patient-heading {
+    text-align: center;
+    border-bottom: 0.15rem solid black;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3a3a8a;
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.8rem;
+    text-shadow: 0 2px 8px rgba(255, 106, 136, 0.08);
+    text-transform: uppercase;
+}
+
+.appointment-doctor-name {
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.appointment-details {
+    color: rgba(0, 0, 0, 0.75);
+
+    & input {
+        border: none;
+        border-radius: 0px;
+        border-bottom: 0.1rem solid black;
+        margin-bottom: 2rem;
+        width: 80%;
+    }
+
+    & .col-1,
+    & .col-2,
+    & .col-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: left;
+    }
+
+    & .col-4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+
+    & .patient-gender {
+        height: 3rem;
+        width: 80%;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    & .slot-chips {
+        margin-bottom: 2rem;
+    }
+
+    & .slot-chip {
+        padding: 1rem;
+        margin-right: 2rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: #f0f4ff;
+    }
+
+    & .slot-chip-selected {
+        padding: 1rem;
+        margin-right: 2rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: #d1ddfd;
+        border: 0.1rem solid rgba(107, 107, 198, 0.575);
+    }
+
+    & .patient-reason {
+        margin-bottom: 2rem;
+    }
+}

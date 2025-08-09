@@ -1,0 +1,480 @@
+:root {
+    --sub-heading-color: #27548A;
+    --heading-color: #09122C;
+    --view-btn: #22177A;
+    --card-color: #FAF7F0;
+    --hospital-card: #EBEAFF;
+}
+
+
+
+/*****  hero section Section *****/
+
+.hero-section {
+    background-color: #9EC6F3;
+    height: 85vh;
+}
+
+.hero-content {
+    text-align: start;
+    margin: auto;
+    /* padding: 10rem 0rem; */
+
+
+
+    & .hero-sub-heading {
+        font-size: 3rem;
+        text-transform: uppercase;
+        position: relative;
+
+        & span {
+            font-family: "Josefin Sans", sans-serif;
+            font-weight: bold;
+            color: var(--sub-heading-color);
+
+        }
+    }
+
+    & .search-wrapper {
+        position: relative;
+        margin-bottom: 2rem;
+
+        & .search-bar {
+            width: 100%;
+            padding: 1rem 8rem;
+            /* font-size: 2rem; */
+            border: none;
+            outline: none;
+            border-radius: 5rem;
+            -webkit-border-radius: 5rem;
+            -moz-border-radius: 5rem;
+            -ms-border-radius: 5rem;
+            -o-border-radius: 5rem;
+            position: relative;
+        }
+
+        & .submit-btn {
+            position: absolute;
+            right: 0rem;
+            top: 0rem;
+            border-radius: 0rem 5rem 5rem 0rem;
+            background-color: #fff;
+            width: 7rem;
+            height: 3.4rem;
+            border: none;
+            background-color: blue;
+            background-color: var(--sub-heading-color);
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        & .nearme-btn {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 5rem 0px 0px 5rem;
+            background-color: #fff;
+            width: 7rem;
+            height: 3.4rem;
+            border: none;
+            background-color: blue;
+            background-color: var(--sub-heading-color);
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+
+
+    }
+
+
+}
+
+.demo-content {
+    font-size: 1.6rem;
+    color: darkblue;
+    margin-bottom: 1.2rem;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+.hero-sub-heading-para {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+    margin: 1rem 0rem;
+    color: var(--heading-color);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 
+.custom-shape-divider-bottom-1744482686 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1744482686 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1744482686 .shape-fill {
+    fill: #FFFFFF;
+} */
+
+
+
+
+
+/***** End  hero section Section *****/
+
+/*****  why-choose-section Section *****/
+
+
+.why-choose-section {
+    margin-top: 10rem;
+
+    & .choose-section {
+        margin-bottom: 8rem;
+
+        & .choose-heading {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+        & .choose-para {
+            font-size: 1.6rem;
+            text-align: center;
+            line-height: 2rem;
+        }
+    }
+
+    & .why-choose-info {
+        gap: 5rem;
+
+        & .why-choose-card {
+            padding: 2rem;
+            background-color: var(--card-color);
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+            & img {
+                width: 80%;
+            }
+
+            & .why-choose-heading {
+                padding: 3rem 0rem;
+
+                & .why-choose-subheading {
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                    font-weight: bold;
+                }
+
+                & .why-choose-subpara {
+                    font-size: 1.3rem;
+                }
+            }
+
+        }
+
+    }
+
+    & .why-choose-section-list {
+        list-style: none;
+    }
+}
+
+
+
+/***** End  why-choose-section Section *****/
+
+
+/*****  how it works Section *****/
+
+.how-it-works {
+    margin-top: 10rem;
+
+    & .work-section {
+        margin-bottom: 8rem;
+
+        & .work-heading {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+        & .work-para {
+            font-size: 1.6rem;
+            text-align: center;
+            line-height: 2rem;
+        }
+    }
+
+    & .step-layout {
+
+        & .step-box {
+            gap: 5rem;
+
+            & li {
+                background-color: aliceblue;
+                height: 18rem;
+                width: 50rem;
+                padding: 5rem 10rem;
+                /* width: 10rem; */
+                border-top: 1rem solid var(--sub-heading-color);
+                border-radius: 50px;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                -ms-border-radius: 50px;
+                -o-border-radius: 50px;
+                text-align: center;
+                padding-top: 2rem;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+
+
+                & .step-number {
+                    font-size: 2.3rem;
+                    width: 4rem;
+                    height: 4rem;
+                    display: flex;
+                    padding: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 1rem;
+
+                    background-color: rgb(218, 218, 85);
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+
+                & .step-title {
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                    font-weight: bold;
+                }
+
+                & .step-desc {
+                    font-size: 1.4rem;
+                    text-align: center;
+                }
+
+
+            }
+
+            & li:hover {
+                box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            }
+
+        }
+    }
+}
+
+
+/***** End  how it works Section *****/
+
+
+
+
+/***** hospital card Section *****/
+
+.hospital-card {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 8rem 20rem 8rem;
+    background-color: #F8F5E9;
+    gap: 1.1rem;
+    margin: auto;
+
+
+    & .left-right-btn {
+        font-size: 5rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        & .left-right-arrow {
+            color: #091057
+        }
+    }
+
+    & .left-right-arrow:hover {
+        scale: 1.2;
+    }
+
+    & .all-cards {
+        /* display: flex; */
+        /* gap: 10rem; */
+        /* justify-content: center;
+        align-items: center; */
+
+        & .cards {
+            border-radius: 2rem;
+            padding: 1.2rem;
+            width: 40rem;
+
+
+            background-color: var(--hospital-card);
+
+            img {
+                width: 100%;
+            }
+
+            & .card-content {
+                margin: 1rem 0rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                padding: 1rem;
+                gap: 1rem;
+                text-align: center;
+
+
+                & .content-heading {
+                    font-size: 1.8rem;
+                    text-transform: capitalize;
+                    font-weight: bold;
+
+                }
+
+                & .content-para {
+                    font-size: 1.3rem;
+                }
+
+                & .content-bottom {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    column-gap: 8rem;
+
+                    & .rating {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: white;
+                        padding: 0.5rem 1.5rem;
+                        border-radius: 2rem;
+                        -webkit-border-radius: 2rem;
+                        -moz-border-radius: 2rem;
+                        -ms-border-radius: 2rem;
+                        -o-border-radius: 2rem;
+
+                        & p {
+                            font-size: 1.2rem;
+                            font-weight: bold;
+                        }
+
+                        & .star {
+                            display: flex;
+                            /* background-color:orange; */
+                        }
+                    }
+
+                    & .view-more-btn {
+                        cursor: pointer;
+                        padding: 1rem 1.2rem;
+                        border: none;
+                        font-size: 1.4rem;
+                        width: 10rem;
+                        color: white;
+                        background-color: var(--view-btn);
+                        border-radius: 2rem;
+                        -webkit-border-radius: 2rem;
+                        -moz-border-radius: 2rem;
+                        -ms-border-radius: 2rem;
+                        -o-border-radius: 2rem;
+                    }
+                }
+            }
+
+
+        }
+
+        & .cards:hover {
+            /* scale: 1.02; */
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        }
+    }
+}
+
+.slick-slide>div {
+    margin: 1rem 2rem;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: var(--view-btn) !important;
+    font-size: 3.4rem !important;
+}
+
+
+
+
+/***** End hospital card Section *****/
+
+
+@media (max-width:1030px) {
+    .why-choose-section {
+        & .why-choose-info {
+            & .why-choose-card {
+                padding: 1rem;
+            }
+        }
+    }
+}
+@media (max-width:600px) {
+   .why-choose-section {
+    & .why-choose-info {
+        & .why-choose-card {
+            & .why-choose-heading {
+                padding: 1rem 0rem;
+            }
+        }
+    }
+}
+}

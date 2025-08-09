@@ -1,0 +1,98 @@
+.signup {
+    background-image: url("../assets/bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.signup-div {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* padding: 12rem 32rem 0rem 0rem;*/
+
+}
+
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+    border-radius: 2rem;
+    width: 40rem;
+
+}
+
+.sigin-text {
+    opacity: 0.5;
+}
+
+.username,
+.email,
+.password,
+.confirmPassword {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    position: relative;
+}
+
+.open-btn {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+
+}
+
+.submit-btn {
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #1b31ab;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.auto-authentication {
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.google{
+    width: 100%;
+    padding: 0.7rem;
+    gap: 1rem;
+    border-radius: 20rem;
+    border: 0.1rem solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.google-icon{
+    font-size: 1.9rem;
+}
+
+.have-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    & a {
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+}

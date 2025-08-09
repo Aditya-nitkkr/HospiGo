@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "StepNumber": "1",
+    "StepTitle": " Search for Hospitals",
+    "StepDescription": "Enter your location or let the app detect nearby hospitals automatically. Use filters to refine your search based on specialty, ratings, or services"
+  },
+  {
+    "id": 2,
+    "StepNumber": "2",
+    "StepTitle": "  Explore Hospital Details",
+    "StepDescription": " View essential information such as hospital facilities, available doctors, patient reviews, consultation fees, and visiting hours."
+  },
+  {
+    "id": 3,
+    "StepNumber": "3",
+    "StepTitle": "Book an Appointment",
+    "StepDescription": "Select a doctor, choose a convenient date and time, and confirm your booking instantly. Receive a confirmation via email or SMS"
+  },
+  {
+    "id": 4,
+   "StepNumber": "4",
+    "StepTitle": "Get Directions & Visit",
+    "StepDescription": "Use integrated Google Maps to navigate to the hospital easily. Need assistance? Our 24/7 support team is here to help."
+  }
+]
